@@ -1,4 +1,4 @@
-# Moview Review Rating Prediction
+# Movie Review Rating Prediction
 Predicting star rating of a movie (from 1 to 10) based on the review contents.  
 This project uses two regression models - distilbert and a bag-of-words lgbm model for comparison.
 
