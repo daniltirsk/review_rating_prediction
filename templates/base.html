@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %} - FlaskApp</title>
+    <style>
+        .message {
+            padding: 10px;
+            margin: 5px;
+            background-color: #f3f3f3
+        }
+        nav p {
+            font-size: 3em;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        body {
+            color: #d64161;
+            text-align: center;
+        }
+        form {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <p>MOVIE RATER</p>
+    </nav>
+    <hr>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>

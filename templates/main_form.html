@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Write Your Review Here {% endblock %}</h1>
+    <form method="post">
+        <textarea name="content"
+                  placeholder="Review Content"
+                  rows="15"
+                  cols="60"
+        >{{ request.form['content'] }}</textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <div>
+        {% for result in results %}
+            <div class='message'>
+                <p>Method: {{ result['method'] }} | Rating: {{ result['rating'] }} | Sentiment: {{ result['label'] }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
