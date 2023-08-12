@@ -5,7 +5,7 @@ from preprocessing import *
 
 app = Flask(__name__)
 
-app.config["BASE_URL"] = "localhost"
+app.config["BASE_URL"] = "urlGoesHere"
 
 LGBM_THRESH = 0.556235
 BERT_THRESH = 0.384609
