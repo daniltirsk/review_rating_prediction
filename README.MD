@@ -9,5 +9,3 @@ returns json {"bert":{"ratings":[7,3],"labels":[1,0]}, "lgbm":{"ratings":[7,3],"
 
 # Website Link
 http://82.146.60.164:5000/
-
-# Demonstration
