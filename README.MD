@@ -7,5 +7,7 @@ The inferface includes a flask front-end and a basic API.
 POST /get_ratings expects json formated like {"method": "lgbm"|"bert"|"both", "reviews":["text1","text2"...]}  
 returns json {"bert":{"ratings":[7,3],"labels":[1,0]}, "lgbm":{"ratings":[7,3],"labels":[1,0]}}
 
+More thorough information is included in the report. See review_rating_prediction_report.pdf
+
 # Website Link
 http://82.146.60.164:5000/
